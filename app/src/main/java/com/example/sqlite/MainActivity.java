@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         btnRogzitesre.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent rogzitesre = new IKntent(MainActivity.this, RogzitesActivity.class);
+                Intent rogzitesre = new Intent(MainActivity.this, RogzitesActivity.class);
                 startActivity(rogzitesre);
                 finish();
             }
